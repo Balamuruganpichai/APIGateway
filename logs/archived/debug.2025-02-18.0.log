@@ -1,0 +1,863 @@
+2025-02-18 18:50:15 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 18:50:15 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 18:50:15 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 18:50:15 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 35596 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 18:50:15 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 18:50:15 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 18:50:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 18:50:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 18:50:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 18:50:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 18:50:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 18:50:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 18:50:17 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 18:50:17 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 18:50:17 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 18:50:17 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 18:50:17 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 18:50:17 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 18:50:17 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1632 ms
+2025-02-18 18:50:17 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 18:50:17 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 18:50:17 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 18:50:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 18:50:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 18:50:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 18:50:18 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(POST && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 18:50:18 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 18:50:18 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 18:50:18 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 18:50:18 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 18:50:18 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.374 seconds (process running for 4.391)
+2025-02-18 18:54:56 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 18:54:56 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 18:54:59 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 18:54:59 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 18:54:59 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 18:54:59 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 9688 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 18:54:59 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 18:54:59 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 18:54:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 18:55:00 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 18:55:00 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 18:55:00 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 18:55:00 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 18:55:00 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 18:55:00 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 18:55:00 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+2025-02-18 18:55:00 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 18:55:00 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 18:55:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 18:55:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 18:55:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 18:55:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 18:55:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(POST && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 18:55:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 18:55:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 18:55:01 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 18:55:01 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 18:55:01 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.019 seconds (process running for 3.878)
+2025-02-18 18:56:14 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 18:56:14 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 18:56:14 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 18:56:14 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:14 [94501854-a205-4a90-9755-f7653dd3c3ec] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:56:14 [94501854-a205-4a90-9755-f7653dd3c3ec] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 18:56:16 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:16 [cd0513f3-3cc8-4f81-b984-5a7630e32a21] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:56:18 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:18 [6cca0c4f-43a8-476d-90fa-fa7b3916aece] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:56:22 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:22 [1cefee73-f5d4-464b-a8b9-3f9b9dc619f6] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:56:24 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:24 [a0b66912-1a36-47df-8af9-6a446719503e] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:56:34 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 18:56:34 [f1206e6f-acc0-42ad-baf2-8b9d9fe86626] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 18:57:36 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 18:57:36 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:03:42 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:03:42 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:03:42 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:03:42 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:03:42 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:03:42 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:03:42 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:03:42 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:03:42 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 12964 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:03:42 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:03:42 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:03:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:03:43 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:03:44 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:03:44 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:03:44 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:03:44 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:03:44 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:03:44 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1506 ms
+2025-02-18 19:03:44 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:03:44 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:03:44 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(POST && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:03:44 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:03:45 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:03:45 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:03:45 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.148 seconds (process running for 4.152)
+2025-02-18 19:04:52 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:04:52 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:04:52 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:04:52 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:04:52 [efeebc98-4bbb-4cc8-b19d-c7fae0a68216] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:04:52 [efeebc98-4bbb-4cc8-b19d-c7fae0a68216] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:14:04 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:14:04 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:14:09 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:14:09 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:14:09 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:14:09 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 3604 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:14:09 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:14:09 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:14:09 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:14:10 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:14:10 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:14:10 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:14:10 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:14:10 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:14:10 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:14:10 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1224 ms
+2025-02-18 19:14:11 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:14:11 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:14:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:14:11 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:14:11 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:14:11 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:14:12 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 2.957 seconds (process running for 3.856)
+2025-02-18 19:14:22 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:14:22 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:14:22 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-02-18 19:14:22 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:14:22 [30ee243d-32ff-4e97-adca-d82a7f40e78e] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:14:22 [30ee243d-32ff-4e97-adca-d82a7f40e78e] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:14:22 [30ee243d-32ff-4e97-adca-d82a7f40e78e] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:14:22 [30ee243d-32ff-4e97-adca-d82a7f40e78e] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:14:26 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:14:26 [b0a1a12b-e4d7-4517-9827-d38d3c0fc044] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:14:26 [b0a1a12b-e4d7-4517-9827-d38d3c0fc044] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:14:26 [b0a1a12b-e4d7-4517-9827-d38d3c0fc044] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:14:30 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:14:30 [b4f2341b-b14c-4e7a-9c09-17b1ed575298] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:14:30 [b4f2341b-b14c-4e7a-9c09-17b1ed575298] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:14:30 [b4f2341b-b14c-4e7a-9c09-17b1ed575298] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:14:48 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:14:48 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:14:57 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:14:57 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:14:57 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 7976 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:14:57 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:14:57 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:14:57 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:14:57 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:14:58 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:14:59 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:14:59 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:14:59 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:14:59 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:14:59 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:14:59 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+2025-02-18 19:14:59 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:14:59 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:14:59 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:14:59 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:15:00 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:15:00 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:15:00 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.219 seconds (process running for 4.115)
+2025-02-18 19:15:23 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:15:23 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:15:23 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:15:23 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:15:23 [d051b148-bb11-4773-a974-a737864ccef4] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:15:23 [d051b148-bb11-4773-a974-a737864ccef4] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:15:23 [d051b148-bb11-4773-a974-a737864ccef4] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:15:23 [d051b148-bb11-4773-a974-a737864ccef4] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:15:25 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:15:25 [a00a4fce-1914-4d74-bc68-5b348e9247cb] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:15:25 [a00a4fce-1914-4d74-bc68-5b348e9247cb] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:15:25 [a00a4fce-1914-4d74-bc68-5b348e9247cb] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:15:26 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:15:26 [1e64efac-efb2-4122-a64e-c02e33d507cf] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:15:26 [1e64efac-efb2-4122-a64e-c02e33d507cf] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:15:26 [1e64efac-efb2-4122-a64e-c02e33d507cf] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:16:51 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:16:52 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:20:41 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:20:41 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:20:41 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:20:41 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 5884 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:20:41 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:20:41 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:20:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:20:42 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:20:42 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:20:42 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:20:42 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:20:42 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:20:42 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:20:42 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1423 ms
+2025-02-18 19:20:42 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:20:43 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:20:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:20:43 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:20:43 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:20:43 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:20:44 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.227 seconds (process running for 4.079)
+2025-02-18 19:21:03 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:21:03 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:21:03 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:21:03 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:21:03 [d0182a5b-29a1-4df0-b1d4-4f0d3188a0db] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:21:03 [d0182a5b-29a1-4df0-b1d4-4f0d3188a0db] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:21:03 [d0182a5b-29a1-4df0-b1d4-4f0d3188a0db] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:21:03 [d0182a5b-29a1-4df0-b1d4-4f0d3188a0db] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:21:05 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:21:05 [a373f2f8-1328-4d11-ae44-83e48e97818c] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:21:05 [a373f2f8-1328-4d11-ae44-83e48e97818c] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:21:05 [a373f2f8-1328-4d11-ae44-83e48e97818c] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:29:10 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:29:11 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:29:15 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:29:15 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:29:15 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:29:15 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 21228 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:29:15 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:29:15 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:29:15 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:29:16 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:29:16 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:29:16 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:29:16 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:29:16 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:29:16 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:29:16 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1415 ms
+2025-02-18 19:29:16 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:29:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:29:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:29:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:29:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:29:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:29:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:29:17 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:29:17 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:29:17 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:29:17 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.063 seconds (process running for 3.902)
+2025-02-18 19:29:25 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:29:25 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:29:25 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-02-18 19:29:25 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:29:25 [404fbe4a-5e72-4d2b-b9b1-c98041d29eb0] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:29:26 [404fbe4a-5e72-4d2b-b9b1-c98041d29eb0] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:29:26 [404fbe4a-5e72-4d2b-b9b1-c98041d29eb0] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:29:26 [404fbe4a-5e72-4d2b-b9b1-c98041d29eb0] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:29:29 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:29:29 [ac83896f-68f2-4f32-b3f1-3eb74e4b0526] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:29:29 [ac83896f-68f2-4f32-b3f1-3eb74e4b0526] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:29:29 [ac83896f-68f2-4f32-b3f1-3eb74e4b0526] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:30:54 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:30:54 [a9106c56-524c-4960-8097-4f4a71e48a71] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:30:54 [a9106c56-524c-4960-8097-4f4a71e48a71] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:30:54 [a9106c56-524c-4960-8097-4f4a71e48a71] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:31:54 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:31:54 [b9e6b538-4715-4296-81fd-c1be3685c0a6] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:31:54 [b9e6b538-4715-4296-81fd-c1be3685c0a6] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:31:54 [b9e6b538-4715-4296-81fd-c1be3685c0a6] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:31:55 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:31:55 [1ba1c852-3500-4822-91a1-8ab1fdca8639] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:31:55 [1ba1c852-3500-4822-91a1-8ab1fdca8639] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:31:55 [1ba1c852-3500-4822-91a1-8ab1fdca8639] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:32:01 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:32:01 [6a29cf43-7744-4175-9d6c-86ee59cefd00] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:32:01 [6a29cf43-7744-4175-9d6c-86ee59cefd00] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:32:01 [6a29cf43-7744-4175-9d6c-86ee59cefd00] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:32:06 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:32:06 [fa83a6d3-a53c-4b32-87d0-ee1c9d2e4b61] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:32:06 [fa83a6d3-a53c-4b32-87d0-ee1c9d2e4b61] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:32:06 [fa83a6d3-a53c-4b32-87d0-ee1c9d2e4b61] INFO  c.c.c.g.c.config.RouterConfiguration - Processing request: HTTP GET /users
+2025-02-18 19:38:11 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:38:11 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:38:16 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:38:16 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:38:16 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:38:16 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 7652 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:38:16 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:38:16 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:38:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:38:18 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:38:18 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:38:18 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:38:18 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:38:18 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:38:18 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:38:18 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1934 ms
+2025-02-18 19:38:18 [] INFO  c.c.c.g.c.config.RouterConfiguration - RouterConfiguration initialized successfully!
+2025-02-18 19:38:18 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:38:18 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:38:19 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:38:19 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:38:19 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:38:19 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 4.089 seconds (process running for 5.18)
+2025-02-18 19:38:26 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:38:26 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:38:26 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:38:26 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:26 [df79d164-a151-480a-b0b0-151f1ac43146] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:26 [df79d164-a151-480a-b0b0-151f1ac43146] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:26 [df79d164-a151-480a-b0b0-151f1ac43146] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:38:33 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:33 [19b1af61-196f-423d-a649-cf7632f6fa80] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:33 [19b1af61-196f-423d-a649-cf7632f6fa80] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:37 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:37 [d725c921-c9e2-48d7-976a-7fb77eb2a0e1] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:37 [d725c921-c9e2-48d7-976a-7fb77eb2a0e1] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:39 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:39 [20b94769-cc77-452d-b25a-abeae78bdfc3] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:39 [20b94769-cc77-452d-b25a-abeae78bdfc3] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:40 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:40 [64aa91e9-8c77-4ba5-b426-6bf3f035cc1c] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:40 [64aa91e9-8c77-4ba5-b426-6bf3f035cc1c] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:42 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:42 [db828286-7a6b-4ae7-ac04-f01bd5dce7fb] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:42 [db828286-7a6b-4ae7-ac04-f01bd5dce7fb] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:38:43 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:38:43 [206804c6-abef-44b5-97c0-ad1472aa53c0] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:38:43 [206804c6-abef-44b5-97c0-ad1472aa53c0] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:41:46 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:41:46 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:41:50 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:41:50 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:41:50 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:41:50 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 19204 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:41:50 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:41:50 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:41:50 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:41:51 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:41:52 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:41:52 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:41:52 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:41:52 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:41:52 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:41:52 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1522 ms
+2025-02-18 19:41:52 [] INFO  c.c.c.g.c.config.RouterConfiguration - RouterConfiguration initialized successfully!
+2025-02-18 19:41:52 [] INFO  c.c.c.g.c.filter.CommonBeforeFilter - instrument
+2025-02-18 19:41:52 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:41:52 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:41:52 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:41:53 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:41:53 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:41:53 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.346 seconds (process running for 4.262)
+2025-02-18 19:41:59 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:41:59 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:41:59 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:41:59 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:41:59 [684e1f11-59f3-4147-b5e2-f753b656851c] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:41:59 [684e1f11-59f3-4147-b5e2-f753b656851c] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:41:59 [684e1f11-59f3-4147-b5e2-f753b656851c] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:42:01 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:42:01 [c8be19e8-137b-4125-8fde-d85ade259ecc] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:42:01 [c8be19e8-137b-4125-8fde-d85ade259ecc] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:42:07 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:42:07 [75caceb1-a8a8-4c73-9143-92df62d3b753] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:42:07 [75caceb1-a8a8-4c73-9143-92df62d3b753] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:42:30 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:42:30 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:44:40 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:44:40 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:44:40 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:44:40 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 20380 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:44:40 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:44:40 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:44:40 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:44:41 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:44:41 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:44:41 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:44:41 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:44:41 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:44:41 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:44:41 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+2025-02-18 19:44:41 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:44:41 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:44:41 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:44:42 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:44:42 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:44:42 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:44:42 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.158 seconds (process running for 3.978)
+2025-02-18 19:45:02 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:45:02 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:45:02 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-18 19:45:02 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:45:02 [19cb64f5-6cbb-47d7-b24c-c9e820b21f27] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:45:02 [19cb64f5-6cbb-47d7-b24c-c9e820b21f27] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:45:02 [19cb64f5-6cbb-47d7-b24c-c9e820b21f27] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:45:02 [19cb64f5-6cbb-47d7-b24c-c9e820b21f27] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:45:06 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:45:06 [1a45955e-73d5-4501-8bee-4b00df70275f] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:45:06 [1a45955e-73d5-4501-8bee-4b00df70275f] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:45:06 [1a45955e-73d5-4501-8bee-4b00df70275f] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:51:07 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:07 [b1c1f177-af20-403f-b953-fd40f6f90ad6] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:07 [b1c1f177-af20-403f-b953-fd40f6f90ad6] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:51:07 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:07 [c4936116-c296-481e-b253-144ba7bc95d8] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:21 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:21 [c4eadc09-2edb-4292-b020-cd32a3f7fb7c] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:21 [c4eadc09-2edb-4292-b020-cd32a3f7fb7c] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:51:21 [c4eadc09-2edb-4292-b020-cd32a3f7fb7c] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:51:22 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:22 [a2381167-dac5-457b-9d7d-0056fda57bce] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:22 [a2381167-dac5-457b-9d7d-0056fda57bce] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:51:22 [a2381167-dac5-457b-9d7d-0056fda57bce] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:51:28 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:28 [3334c68a-c7a0-48d8-8418-0818c7782378] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:28 [3334c68a-c7a0-48d8-8418-0818c7782378] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:51:28 [3334c68a-c7a0-48d8-8418-0818c7782378] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:51:29 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:29 [ab6e7d81-051d-4357-b040-ce29af4b2fe7] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:29 [ab6e7d81-051d-4357-b040-ce29af4b2fe7] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:51:29 [ab6e7d81-051d-4357-b040-ce29af4b2fe7] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:51:38 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:51:38 [be5a368c-22ec-49de-aea7-e43d01ac2d85] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:51:38 [be5a368c-22ec-49de-aea7-e43d01ac2d85] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:52:03 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:03 [2d45a3eb-4bd2-4441-a648-e848bdd68675] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:03 [2d45a3eb-4bd2-4441-a648-e848bdd68675] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:52:16 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:16 [855dddec-033a-45b2-a546-1e15efb194b2] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:16 [855dddec-033a-45b2-a546-1e15efb194b2] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:52:16 [855dddec-033a-45b2-a546-1e15efb194b2] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:52:20 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:20 [d0d53204-0a68-48d1-b1ef-1587f21902b7] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:20 [d0d53204-0a68-48d1-b1ef-1587f21902b7] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:52:35 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:35 [d627aaab-f85b-40d4-a481-b5348e9c66cd] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:35 [d627aaab-f85b-40d4-a481-b5348e9c66cd] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:52:35 [d627aaab-f85b-40d4-a481-b5348e9c66cd] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:52:36 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:36 [7b945fde-84b6-49ef-be46-27296ab8b622] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:36 [7b945fde-84b6-49ef-be46-27296ab8b622] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:52:36 [7b945fde-84b6-49ef-be46-27296ab8b622] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:52:46 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:52:46 [021d494d-3db8-4c2d-bd4d-9c2058599203] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:52:46 [021d494d-3db8-4c2d-bd4d-9c2058599203] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:54:34 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:54:34 [d21094ca-c3d2-4a61-905d-c546285eaad5] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:54:34 [d21094ca-c3d2-4a61-905d-c546285eaad5] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:54:37 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:54:37 [68da0dd7-95b9-4a27-985f-ff67155ab30c] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:54:37 [68da0dd7-95b9-4a27-985f-ff67155ab30c] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:54:39 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:54:39 [2d343238-08c9-46ea-9030-993630f0f6e2] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:54:39 [2d343238-08c9-46ea-9030-993630f0f6e2] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:55:03 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:55:03 [f5941f9c-6385-4cb7-a7b9-2ace65eaa6d1] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:55:03 [f5941f9c-6385-4cb7-a7b9-2ace65eaa6d1] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:55:18 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:55:18 [971683d3-d47d-4a66-a32d-961d1e0fc75b] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:55:18 [971683d3-d47d-4a66-a32d-961d1e0fc75b] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:55:20 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:55:20 [28f2ec67-377f-467c-b2e4-06695cd9d4e9] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:55:20 [28f2ec67-377f-467c-b2e4-06695cd9d4e9] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:55:22 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:55:22 [2bfc98e2-3085-4851-aa77-e291d74309f7] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:55:22 [2bfc98e2-3085-4851-aa77-e291d74309f7] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:55:49 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:55:49 [06bf9341-104b-408d-850d-a34aa172dbeb] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:55:49 [06bf9341-104b-408d-850d-a34aa172dbeb] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:57:21 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:57:21 [6790ab4f-44b7-4ae8-9e48-144cc18d9319] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:57:21 [6790ab4f-44b7-4ae8-9e48-144cc18d9319] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:57:33 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18 19:57:33 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-18 19:57:36 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-18 19:57:36 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:57:36 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:57:36 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 6424 (E:\API-GATEWAY\commongateway\target\classes started by CITPL in E:\API-GATEWAY)
+2025-02-18 19:57:36 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-18 19:57:36 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:57:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:57:37 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=965284d2-077f-314a-bf86-64bc4b088d5b
+2025-02-18 19:57:37 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-18 19:57:37 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:57:37 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-18 19:57:37 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-18 19:57:37 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-18 19:57:37 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1409 ms
+2025-02-18 19:57:37 [] INFO  c.c.c.g.c.config.RouterConfiguration - Process: processor
+2025-02-18 19:57:37 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-18 19:57:37 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-18 19:57:37 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-18 19:57:37 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-18 19:57:37 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-18 19:57:37 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped RouterFunction routeId=common_before_filter delegate=(GET && /users) -> ProxyExchangeHandlerFunction
+2025-02-18 19:57:37 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+2025-02-18 19:57:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-18 19:57:38 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 19:57:38 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 19:57:38 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.062 seconds (process running for 3.951)
+2025-02-18 19:57:46 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 19:57:46 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-18 19:57:46 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-18 19:57:46 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:57:46 [b3bc5742-6d90-4a70-8cb9-61ea68fe5b6d] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:57:46 [b3bc5742-6d90-4a70-8cb9-61ea68fe5b6d] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:57:49 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:57:49 [8bdac993-97d6-4413-a2a7-35733a288a7a] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:57:49 [8bdac993-97d6-4413-a2a7-35733a288a7a] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:58:52 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:58:52 [4c78d855-d17d-4307-ae73-a6bb37f7248f] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:58:52 [4c78d855-d17d-4307-ae73-a6bb37f7248f] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:58:52 [4c78d855-d17d-4307-ae73-a6bb37f7248f] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 19:58:52 [4c78d855-d17d-4307-ae73-a6bb37f7248f] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-18 19:58:59 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:58:59 [9a2f14b3-ee17-4b69-a573-bd1ddc8f0a19] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:58:59 [9a2f14b3-ee17-4b69-a573-bd1ddc8f0a19] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: []
+2025-02-18 19:59:04 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 19:59:04 [92241759-4f4d-4356-95e8-ae08620d7652] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 19:59:04 [92241759-4f4d-4356-95e8-ae08620d7652] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 19:59:04 [92241759-4f4d-4356-95e8-ae08620d7652] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 20:00:17 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 20:00:17 [8352210a-0741-408d-af3f-f83ac29085a1] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 20:00:17 [8352210a-0741-408d-af3f-f83ac29085a1] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 20:00:17 [8352210a-0741-408d-af3f-f83ac29085a1] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users
+2025-02-18 20:00:19 [] DEBUG c.c.c.g.c.filter.MDCFilter - request Id: null
+2025-02-18 20:00:19 [394890b8-4744-4ab6-b575-51fe40723956] INFO  c.c.c.g.c.filter.MDCFilter - log filter initiated
+2025-02-18 20:00:19 [394890b8-4744-4ab6-b575-51fe40723956] INFO  c.c.c.g.c.config.RouterConfiguration - orgId: [001]
+2025-02-18 20:00:19 [394890b8-4744-4ab6-b575-51fe40723956] INFO  c.c.c.g.c.filter.RequestProcessor - path: /users

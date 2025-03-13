@@ -1,0 +1,552 @@
+2025-02-25 10:44:23 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 10:44:23 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 10:44:24 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 10:44:24 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 10:44:24 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 11200 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 10:44:24 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 10:44:24 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 10:44:24 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 10:44:24 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 10:44:26 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 10:44:26 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7ba18f1b
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 10:44:26 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 10:44:26 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 10:44:26 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 10:44:27 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 10:44:27 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x000001eb81503100@4bbf38b8 -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x000001eb81503368@4e67cfe1
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 10:44:27 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 10:44:28 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 10:44:28 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 10:44:28 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 10:44:28 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 10:44:28 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 10:44:28 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 10:44:28 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 10:44:28 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 10:44:28 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 10:44:28 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 10:44:28 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 10:44:28 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 10:44:28 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 10:44:28 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 10:44:28 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 10:44:28 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 10:44:28 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 10:44:28 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 10:44:28 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 10:44:28 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 10:44:28 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 10:44:28 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 10:44:28 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 10:44:28 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 10:44:28 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 4.986 seconds (process running for 6.902)
+2025-02-25 12:19:52 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 12:19:52 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 12:19:53 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 12:19:53 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 12:19:53 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:19:53 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:19:53 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:19:53 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:19:53 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:19:53 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:19:53 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 42928 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 12:19:53 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 12:19:53 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:19:54 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:19:55 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 12:19:55 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17776a8
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 12:19:55 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 12:19:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 12:19:55 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 12:19:56 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:19:56 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x000002b55e503100@660b1a9d -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x000002b55e503368@6fb0261e
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 12:19:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 12:19:57 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 12:19:57 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 12:19:57 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 12:19:57 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 12:19:57 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 12:19:57 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 12:19:57 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 12:19:57 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 12:19:57 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 12:19:57 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 12:19:58 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 12:19:58 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 12:19:58 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 12:19:58 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 12:19:58 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 12:19:58 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 12:19:58 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 12:19:58 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 12:19:58 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 12:19:58 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 12:19:58 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 12:19:58 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 12:19:58 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 12:19:58 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 12:19:58 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 4.735 seconds (process running for 6.936)
+2025-02-25 12:21:52 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 12:21:52 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 12:21:53 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 12:21:53 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:21:53 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:21:53 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 44756 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 12:21:53 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 12:21:53 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:21:53 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:21:54 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 12:21:55 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17776a8
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 12:21:55 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 12:21:55 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 12:21:55 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 12:21:55 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:21:55 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x000001d81e5039e8@3719360c -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x000001d81e503c50@3afca2c
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 12:21:56 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 12:21:56 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 12:21:56 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 12:21:56 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 12:21:56 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 12:21:56 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 12:21:57 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 12:21:57 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 12:21:57 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 12:21:57 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 12:21:57 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 12:21:57 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 12:21:57 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 12:21:57 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 12:21:57 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 12:21:57 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 12:21:57 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 12:21:57 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 12:21:57 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 12:21:57 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 12:21:57 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 12:21:57 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 12:21:57 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 12:21:57 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 12:21:57 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 12:21:57 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 4.607 seconds (process running for 6.503)
+2025-02-25 12:26:12 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 12:26:12 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 12:26:13 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 12:26:13 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:26:13 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:26:13 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 31148 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 12:26:13 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 12:26:13 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:26:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:26:15 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 12:26:15 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17776a8
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 12:26:15 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 12:26:15 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 12:26:15 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 12:26:16 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:26:16 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x000001e918502660@660b1a9d -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x000001e9185028c8@6fb0261e
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 12:26:16 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 12:26:17 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 12:26:17 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 12:26:17 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 12:26:17 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 12:26:17 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 12:26:17 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 12:26:18 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 12:26:18 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 12:26:18 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 12:26:18 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 12:26:18 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 12:26:18 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 12:26:18 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 12:26:18 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 12:26:18 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 12:26:18 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 12:26:18 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 12:26:18 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 12:26:18 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 12:26:18 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 12:26:18 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 12:26:18 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 12:26:18 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 12:26:18 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 12:26:18 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 5.383 seconds (process running for 7.897)
+2025-02-25 12:44:56 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 12:44:56 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 12:44:57 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 12:44:57 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 12:44:57 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:44:57 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:44:57 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:44:57 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:44:57 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:44:57 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 46824 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 12:44:57 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 12:44:57 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 12:44:57 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:44:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:44:59 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 12:44:59 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17776a8
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 12:44:59 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 12:44:59 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 12:45:00 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 12:45:00 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 12:45:00 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x0000020d42503100@71567f33 -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x0000020d42503368@71369e1a
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 12:45:00 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 12:45:01 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 12:45:01 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 12:45:01 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 12:45:01 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 12:45:01 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 12:45:01 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 12:45:01 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 12:45:01 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 12:45:01 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 12:45:01 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 12:45:01 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 12:45:01 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 12:45:01 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 12:45:01 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 12:45:01 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 12:45:01 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 12:45:01 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 12:45:01 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 12:45:01 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 12:45:01 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 12:45:01 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 12:45:01 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 12:45:01 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 12:45:01 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 12:45:01 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 4.736 seconds (process running for 6.774)
+2025-02-25 13:22:57 [] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.citpl.common.gateway.commongateway.CommongatewayApplicationTests]: CommongatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 13:22:57 [] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.citpl.common.gateway.commongateway.CommongatewayApplication for test class com.citpl.common.gateway.commongateway.CommongatewayApplicationTests
+2025-02-25 13:22:58 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-02-25 13:22:58 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 13:22:58 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 13:22:58 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Starting CommongatewayApplicationTests using Java 17.0.12 with PID 57280 (started by CITPL in D:\WORKSPACE\API-GATEWAY\commongateway)
+2025-02-25 13:22:58 [] DEBUG c.c.c.g.c.CommongatewayApplicationTests - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-25 13:22:58 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 13:22:58 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 13:23:00 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e6aeb0d0-0b1e-3fac-967b-97b4a494719d
+2025-02-25 13:23:00 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17776a8
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-02-25 13:23:00 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-02-25 13:23:00 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-02-25 13:23:00 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-02-25 13:23:01 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-02-25 13:23:01 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1121/0x000002a5505039e8@39f42d0e -> com.citpl.common.gateway.commongateway.config.RouterConfiguration$$Lambda$1122/0x000002a550503c50@47a3d56a
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /validate/** -> ProxyExchangeHandlerFunction
+/users/** -> ProxyExchangeHandlerFunction
+2025-02-25 13:23:01 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-02-25 13:23:02 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-02-25 13:23:02 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-02-25 13:23:02 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-02-25 13:23:02 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-02-25 13:23:02 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-02-25 13:23:02 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-02-25 13:23:02 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-02-25 13:23:02 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-02-25 13:23:02 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-02-25 13:23:02 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-02-25 13:23:02 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-02-25 13:23:02 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-02-25 13:23:02 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-02-25 13:23:02 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-02-25 13:23:02 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-02-25 13:23:02 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-02-25 13:23:02 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-02-25 13:23:02 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-02-25 13:23:02 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-02-25 13:23:02 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-02-25 13:23:02 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-02-25 13:23:02 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-02-25 13:23:02 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-02-25 13:23:02 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-02-25 13:23:02 [] INFO  c.c.c.g.c.CommongatewayApplicationTests - Started CommongatewayApplicationTests in 4.75 seconds (process running for 6.806)

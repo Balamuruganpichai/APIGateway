@@ -1,0 +1,794 @@
+2025-03-13 11:06:11 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-03-13 11:06:11 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 11:06:11 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 11:06:11 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 13740 (D:\WORKSPACE\API-GATEWAY\commongateway\target\classes started by CITPL in D:\WORKSPACE\API-GATEWAY)
+2025-03-13 11:06:11 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-03-13 11:06:11 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 11:06:11 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13 11:06:11 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 11:06:11 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 11:06:12 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3d2ea2e2-dad5-304f-b8ec-f7005f456a58
+2025-03-13 11:06:13 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-13 11:06:13 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-13 11:06:13 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 11:06:13 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-13 11:06:13 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 11:06:13 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1762 ms
+2025-03-13 11:06:13 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @120d6fe6
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-03-13 11:06:13 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-03-13 11:06:13 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-03-13 11:06:13 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-03-13 11:06:13 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 11:06:13 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 11:06:13 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-03-13 11:06:13 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-03-13 11:06:13 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-03-13 11:06:13 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+/tickets/** -> ProxyExchangeHandlerFunction
+2025-03-13 11:06:13 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-03-13 11:06:14 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-13 11:06:14 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-03-13 11:06:14 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-03-13 11:06:14 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-03-13 11:06:14 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-03-13 11:06:14 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-03-13 11:06:14 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=12, workerCount=12}
+2025-03-13 11:06:14 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@ce55e3a
+2025-03-13 11:06:14 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-03-13 11:06:14 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-03-13 11:06:14 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-03-13 11:06:14 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-03-13 11:06:14 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-03-13 11:06:14 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-03-13 11:06:14 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-03-13 11:06:14 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-03-13 11:06:14 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-13 11:06:14 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-13 11:06:14 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-03-13 11:06:14 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-13 11:06:14 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-03-13 11:06:14 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-03-13 11:06:14 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-03-13 11:06:14 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-03-13 11:06:14 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-03-13 11:06:14 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-03-13 11:06:14 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-03-13 11:06:14 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-13 11:06:14 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-13 11:06:14 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 4.118 seconds (process running for 5.249)
+2025-03-13 11:06:44 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 11:06:44 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 11:06:44 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 11:06:44 [] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 11:06:44 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8083]
+2025-03-13 11:06:44 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13740 (auto-detected)
+2025-03-13 11:06:44 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:15:5d:ff:fe:f7:d3:71 (auto-detected)
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-13 11:06:44 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2025-03-13 11:06:44 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-13 11:06:44 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-13 11:06:44 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-13 11:06:44 [] DEBUG r.n.r.PooledConnectionProvider - [0c7597f2] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 11:06:44 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-13 11:06:44 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-13 11:06:44 [] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4f73858c
+2025-03-13 11:06:44 [] DEBUG r.netty.transport.TransportConfig - [0c7597f2] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 11:06:44 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:06:44 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:06:44 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:06:44 [] DEBUG i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2025-03-13 11:06:44 [] DEBUG r.netty.transport.TransportConnector - [0c7597f2] Connecting to [localhost/127.0.0.1:8083].
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Registering pool release on close event for channel
+2025-03-13 11:06:44 [] DEBUG r.n.r.PooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}, [connected])
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [configured])
+2025-03-13 11:06:44 [] DEBUG r.n.http.client.HttpClientConnect - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Handler is being applied: {uri=http://localhost:8083/tickets, method=GET}
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [request_prepared])
+2025-03-13 11:06:44 [] DEBUG r.n.http.client.HttpClientOperations - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 11:06:44 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-13 11:06:44 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-13 11:06:44 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-13 11:06:44 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-13 11:06:44 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [request_sent])
+2025-03-13 11:06:44 [] DEBUG i.n.handler.codec.compression.Zstd - zstd-jni not in the classpath; Zstd support will be unavailable.
+2025-03-13 11:06:44 [] DEBUG r.n.http.client.HttpClientOperations - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [response_received])
+2025-03-13 11:06:44 [] DEBUG r.n.http.client.HttpClientOperations - [0c7597f2-1, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Received last HTTP packet
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [response_completed])
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083]}}, [disconnecting])
+2025-03-13 11:06:44 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Releasing channel
+2025-03-13 11:06:44 [] DEBUG r.n.r.PooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 - R:localhost/127.0.0.1:8083] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 11:06:44 [] DEBUG reactor.netty.channel.FluxReceive - [fede5db9, L:/127.0.0.1:54577 ! R:localhost/127.0.0.1:8083] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 11:07:00 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8082]
+2025-03-13 11:07:00 [] DEBUG r.n.r.PooledConnectionProvider - [cd6e4a5b] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 11:07:00 [] DEBUG r.netty.transport.TransportConfig - [cd6e4a5b] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 11:07:00 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:07:00 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:07:00 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 11:07:00 [] DEBUG r.netty.transport.TransportConnector - [cd6e4a5b] Connecting to [localhost/127.0.0.1:8082].
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Registering pool release on close event for channel
+2025-03-13 11:07:00 [] DEBUG r.n.r.PooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}, [connected])
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [configured])
+2025-03-13 11:07:00 [] DEBUG r.n.http.client.HttpClientConnect - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Handler is being applied: {uri=http://localhost:8082/users, method=GET}
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [request_prepared])
+2025-03-13 11:07:00 [] DEBUG r.n.http.client.HttpClientOperations - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [request_sent])
+2025-03-13 11:07:00 [] DEBUG r.n.http.client.HttpClientOperations - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [response_received])
+2025-03-13 11:07:00 [] DEBUG r.n.http.client.HttpClientOperations - [cd6e4a5b-1, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Received last HTTP packet
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [response_completed])
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082]}}, [disconnecting])
+2025-03-13 11:07:00 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Releasing channel
+2025-03-13 11:07:00 [] DEBUG r.n.r.PooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 - R:localhost/127.0.0.1:8082] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 11:07:00 [] DEBUG reactor.netty.channel.FluxReceive - [ec26ac1a, L:/127.0.0.1:54583 ! R:localhost/127.0.0.1:8082] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 11:07:07 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13 11:07:07 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [cd6e4a5b, L:/127.0.0.1:54583 ! R:localhost/127.0.0.1:8082] onStateChange(PooledConnection{channel=[id: 0xcd6e4a5b, L:/127.0.0.1:54583 ! R:localhost/127.0.0.1:8082]}, [disconnecting])
+2025-03-13 11:07:07 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [0c7597f2, L:/127.0.0.1:54577 ! R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x0c7597f2, L:/127.0.0.1:54577 ! R:localhost/127.0.0.1:8083]}, [disconnecting])
+2025-03-13 11:07:07 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-13 11:07:07 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: reactor-http-nio-3
+2025-03-13 11:07:07 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: reactor-http-nio-4
+2025-03-13 12:15:02 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-03-13 12:15:02 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:15:02 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:15:02 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 16264 (D:\WORKSPACE\API-GATEWAY\commongateway\target\classes started by CITPL in D:\WORKSPACE\API-GATEWAY)
+2025-03-13 12:15:02 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-03-13 12:15:02 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 12:15:02 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13 12:15:02 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:15:02 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:15:03 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3d2ea2e2-dad5-304f-b8ec-f7005f456a58
+2025-03-13 12:15:03 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-13 12:15:03 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:15:03 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 12:15:03 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-13 12:15:03 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 12:15:03 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1579 ms
+2025-03-13 12:15:04 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @120d6fe6
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-03-13 12:15:04 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-03-13 12:15:04 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-03-13 12:15:04 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-03-13 12:15:04 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:15:04 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:15:04 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-03-13 12:15:04 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-03-13 12:15:04 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-03-13 12:15:04 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+/tickets/** -> ProxyExchangeHandlerFunction
+2025-03-13 12:15:04 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-03-13 12:15:04 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-13 12:15:05 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-03-13 12:15:05 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-03-13 12:15:05 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-03-13 12:15:05 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-03-13 12:15:05 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-03-13 12:15:05 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=12, workerCount=12}
+2025-03-13 12:15:05 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@7c930372
+2025-03-13 12:15:05 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-03-13 12:15:05 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-03-13 12:15:05 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-03-13 12:15:05 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-03-13 12:15:05 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-03-13 12:15:05 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-03-13 12:15:05 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-03-13 12:15:05 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-03-13 12:15:05 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-13 12:15:05 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-13 12:15:05 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-03-13 12:15:05 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-13 12:15:05 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-03-13 12:15:05 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-03-13 12:15:05 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-03-13 12:15:05 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-03-13 12:15:05 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-03-13 12:15:05 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-03-13 12:15:05 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-03-13 12:15:05 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:15:05 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-13 12:15:05 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 4.063 seconds (process running for 5.05)
+2025-03-13 12:15:28 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 12:15:28 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 12:15:28 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-13 12:15:29 [] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:15:29 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8083]
+2025-03-13 12:15:29 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16264 (auto-detected)
+2025-03-13 12:15:29 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:15:5d:ff:fe:f7:d3:71 (auto-detected)
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-13 12:15:29 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2025-03-13 12:15:29 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-13 12:15:29 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-13 12:15:29 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-13 12:15:29 [] DEBUG r.n.r.PooledConnectionProvider - [6277de1c] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:15:29 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-13 12:15:29 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-13 12:15:29 [] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@150ed92a
+2025-03-13 12:15:29 [] DEBUG r.netty.transport.TransportConfig - [6277de1c] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 12:15:29 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:15:29 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:15:29 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:15:29 [] DEBUG i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2025-03-13 12:15:29 [] DEBUG r.netty.transport.TransportConnector - [6277de1c] Connecting to [localhost/127.0.0.1:8083].
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Registering pool release on close event for channel
+2025-03-13 12:15:29 [] DEBUG r.n.r.PooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}, [connected])
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [configured])
+2025-03-13 12:15:29 [] DEBUG r.n.http.client.HttpClientConnect - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Handler is being applied: {uri=http://localhost:8083/tickets, method=GET}
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [request_prepared])
+2025-03-13 12:15:29 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:15:29 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-13 12:15:29 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-13 12:15:29 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-13 12:15:29 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-13 12:15:29 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [request_sent])
+2025-03-13 12:15:29 [] DEBUG i.n.handler.codec.compression.Zstd - zstd-jni not in the classpath; Zstd support will be unavailable.
+2025-03-13 12:15:29 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [response_received])
+2025-03-13 12:15:29 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-1, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Received last HTTP packet
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [response_completed])
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [disconnecting])
+2025-03-13 12:15:29 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Releasing channel
+2025-03-13 12:15:29 [] DEBUG r.n.r.PooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:15:29 [] DEBUG reactor.netty.channel.FluxReceive - [ec4cabd1, L:/127.0.0.1:56116 ! R:localhost/127.0.0.1:8083] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 12:16:01 [] DEBUG r.n.r.PooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Channel acquired, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:16:01 [] DEBUG r.n.http.client.HttpClientConnect - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Handler is being applied: {uri=http://localhost:8083/tickets, method=GET}
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [request_prepared])
+2025-03-13 12:16:01 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [request_sent])
+2025-03-13 12:16:01 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [response_received])
+2025-03-13 12:16:01 [] DEBUG r.n.http.client.HttpClientOperations - [6277de1c-2, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Received last HTTP packet
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [response_completed])
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083]}}, [disconnecting])
+2025-03-13 12:16:01 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Releasing channel
+2025-03-13 12:16:01 [] DEBUG r.n.r.PooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 - R:localhost/127.0.0.1:8083] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:16:01 [] DEBUG reactor.netty.channel.FluxReceive - [82031237, L:/127.0.0.1:56116 ! R:localhost/127.0.0.1:8083] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 12:16:16 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13 12:16:17 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [6277de1c, L:/127.0.0.1:56116 ! R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x6277de1c, L:/127.0.0.1:56116 ! R:localhost/127.0.0.1:8083]}, [disconnecting])
+2025-03-13 12:16:17 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-13 12:16:17 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-3
+2025-03-13 12:17:36 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-03-13 12:17:36 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:17:36 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:17:36 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 25056 (D:\WORKSPACE\API-GATEWAY\commongateway\target\classes started by CITPL in D:\WORKSPACE\API-GATEWAY)
+2025-03-13 12:17:36 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-03-13 12:17:36 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 12:17:36 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13 12:17:36 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:17:36 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:17:37 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3d2ea2e2-dad5-304f-b8ec-f7005f456a58
+2025-03-13 12:17:38 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-13 12:17:38 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:17:38 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 12:17:38 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-13 12:17:38 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 12:17:38 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1660 ms
+2025-03-13 12:17:38 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @120d6fe6
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-03-13 12:17:38 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-03-13 12:17:38 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-03-13 12:17:38 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-03-13 12:17:38 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:17:38 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:17:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-03-13 12:17:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-03-13 12:17:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-03-13 12:17:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+/tickets/** -> ProxyExchangeHandlerFunction
+2025-03-13 12:17:38 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-03-13 12:17:39 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-13 12:17:39 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-03-13 12:17:39 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-03-13 12:17:39 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-03-13 12:17:39 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-03-13 12:17:39 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-03-13 12:17:39 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=12, workerCount=12}
+2025-03-13 12:17:39 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@6492924a
+2025-03-13 12:17:39 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-03-13 12:17:39 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-03-13 12:17:39 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-03-13 12:17:39 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-03-13 12:17:39 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-03-13 12:17:39 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-03-13 12:17:39 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-03-13 12:17:39 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-03-13 12:17:39 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-13 12:17:39 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-13 12:17:39 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-03-13 12:17:39 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-13 12:17:39 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-03-13 12:17:39 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-03-13 12:17:39 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-03-13 12:17:39 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-03-13 12:17:39 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-03-13 12:17:39 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-03-13 12:17:39 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-03-13 12:17:39 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:17:39 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-13 12:17:39 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 4.029 seconds (process running for 5.101)
+2025-03-13 12:19:36 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 12:19:36 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 12:19:36 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 12:19:36 [] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:19:36 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8083]
+2025-03-13 12:19:36 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 25056 (auto-detected)
+2025-03-13 12:19:37 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:15:5d:ff:fe:f7:d3:71 (auto-detected)
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-13 12:19:37 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2025-03-13 12:19:37 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-13 12:19:37 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-13 12:19:37 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-13 12:19:37 [] DEBUG r.n.r.PooledConnectionProvider - [8a76a93c] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:19:37 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-13 12:19:37 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-13 12:19:37 [] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@14f80d8e
+2025-03-13 12:19:37 [] DEBUG r.netty.transport.TransportConfig - [8a76a93c] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 12:19:37 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:19:37 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:19:37 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:19:37 [] DEBUG i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2025-03-13 12:19:37 [] DEBUG r.netty.transport.TransportConnector - [8a76a93c] Connecting to [localhost/127.0.0.1:8083].
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Registering pool release on close event for channel
+2025-03-13 12:19:37 [] DEBUG r.n.r.PooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}, [connected])
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [configured])
+2025-03-13 12:19:37 [] DEBUG r.n.http.client.HttpClientConnect - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Handler is being applied: {uri=http://localhost:8083/tickets, method=GET}
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [request_prepared])
+2025-03-13 12:19:37 [] DEBUG r.n.http.client.HttpClientOperations - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:19:37 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-13 12:19:37 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-13 12:19:37 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-13 12:19:37 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-13 12:19:37 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [request_sent])
+2025-03-13 12:19:37 [] DEBUG i.n.handler.codec.compression.Zstd - zstd-jni not in the classpath; Zstd support will be unavailable.
+2025-03-13 12:19:37 [] DEBUG r.n.http.client.HttpClientOperations - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [response_received])
+2025-03-13 12:19:37 [] DEBUG r.n.http.client.HttpClientOperations - [8a76a93c-1, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Received last HTTP packet
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [response_completed])
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] onStateChange(GET{uri=/tickets, connection=PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083]}}, [disconnecting])
+2025-03-13 12:19:37 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Releasing channel
+2025-03-13 12:19:37 [] DEBUG r.n.r.PooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 - R:localhost/127.0.0.1:8083] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:19:37 [] DEBUG reactor.netty.channel.FluxReceive - [1647babb, L:/127.0.0.1:56262 ! R:localhost/127.0.0.1:8083] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 12:20:38 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [8a76a93c, L:/127.0.0.1:56262 ! R:localhost/127.0.0.1:8083] onStateChange(PooledConnection{channel=[id: 0x8a76a93c, L:/127.0.0.1:56262 ! R:localhost/127.0.0.1:8083]}, [disconnecting])
+2025-03-13 12:21:39 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13 12:21:39 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-13 12:21:39 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: reactor-http-nio-3
+2025-03-13 12:21:43 [] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2025-03-13 12:21:43 [] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:21:43 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:21:43 [] INFO  c.c.c.g.c.CommongatewayApplication - Starting CommongatewayApplication using Java 17.0.12 with PID 12292 (D:\WORKSPACE\API-GATEWAY\commongateway\target\classes started by CITPL in D:\WORKSPACE\API-GATEWAY)
+2025-03-13 12:21:43 [] DEBUG c.c.c.g.c.CommongatewayApplication - Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-03-13 12:21:43 [] INFO  c.c.c.g.c.CommongatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 12:21:43 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-13 12:21:43 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:21:43 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:21:44 [] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=24f950db-3dfe-3680-8823-e7795f7b94e3
+2025-03-13 12:21:45 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-13 12:21:45 [] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:21:45 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 12:21:45 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-13 12:21:45 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 12:21:45 [] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+2025-03-13 12:21:45 [] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 17
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @120d6fe6
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\CITPL\AppData\Local\Temp (java.io.tmpdir)
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-03-13 12:21:45 [] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-03-13 12:21:45 [] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-03-13 12:21:45 [] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+2025-03-13 12:21:45 [] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.AbstractConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-03-13 12:21:45 [] DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-03-13 12:21:45 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	c.c.c.g.c.c.HomeController:
+	{GET [/home]}: get()
+2025-03-13 12:21:45 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-03-13 12:21:45 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+2025-03-13 12:21:46 [] DEBUG _.s.w.s.HandlerMapping.Mappings - Mapped /users/** -> ProxyExchangeHandlerFunction
+/tickets/** -> ProxyExchangeHandlerFunction
+2025-03-13 12:21:46 [] DEBUG _.s.w.s.HandlerMapping.Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+2025-03-13 12:21:46 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-13 12:21:46 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-03-13 12:21:46 [] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-03-13 12:21:46 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-03-13 12:21:46 [] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-03-13 12:21:46 [] DEBUG i.n.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-03-13 12:21:46 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=12, workerCount=12}
+2025-03-13 12:21:46 [] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@18602eeb
+2025-03-13 12:21:46 [] DEBUG r.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+2025-03-13 12:21:46 [] DEBUG r.netty.resources.DefaultLoopEpoll - Default Epoll support : false
+2025-03-13 12:21:46 [] DEBUG r.netty.resources.DefaultLoopKQueue - Default KQueue support : false
+2025-03-13 12:21:46 [] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-03-13 12:21:46 [] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-03-13 12:21:46 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-03-13 12:21:46 [] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-03-13 12:21:46 [] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-03-13 12:21:46 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-13 12:21:46 [] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-13 12:21:46 [] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2025-03-13 12:21:46 [] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-13 12:21:46 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default ResolvedAddressTypes: IPV4_ONLY
+2025-03-13 12:21:46 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Localhost address: localhost/127.0.0.1
+2025-03-13 12:21:46 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Windows hostname: DESKTOP-P307093
+2025-03-13 12:21:46 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default search domains: []
+2025-03-13 12:21:46 [] DEBUG i.netty.resolver.dns.DnsNameResolver - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2025-03-13 12:21:46 [] DEBUG i.n.r.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+2025-03-13 12:21:46 [] DEBUG i.n.r.d.DefaultDnsServerAddressStreamProvider - Default DNS servers: [/8.8.8.8:53, /4.2.2.2:53] (sun.net.dns.ResolverConfiguration)
+2025-03-13 12:21:46 [] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-13 12:21:46 [] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-03-13 12:21:47 [] INFO  c.c.c.g.c.CommongatewayApplication - Started CommongatewayApplication in 3.838 seconds (process running for 4.868)
+2025-03-13 12:21:55 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 12:21:55 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 12:21:55 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-13 12:21:55 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Intercepting Request: [GET] /tickets
+2025-03-13 12:21:55 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Sending Validation Request to: http://localhost:8081/validate?relativePath=/tickets&method=GET
+2025-03-13 12:21:55 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8081]
+2025-03-13 12:21:55 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12292 (auto-detected)
+2025-03-13 12:21:55 [] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:15:5d:ff:fe:f7:d3:71 (auto-detected)
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-13 12:21:55 [] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2025-03-13 12:21:55 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-13 12:21:55 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-13 12:21:55 [] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-13 12:21:55 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:21:56 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-13 12:21:56 [] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-13 12:21:56 [] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@45d9cac3
+2025-03-13 12:21:56 [] DEBUG r.netty.transport.TransportConfig - [4f41e5f1] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 12:21:56 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:21:56 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:21:56 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:21:56 [] DEBUG i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2025-03-13 12:21:56 [] DEBUG r.netty.transport.TransportConnector - [4f41e5f1] Connecting to [localhost/127.0.0.1:8081].
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Registering pool release on close event for channel
+2025-03-13 12:21:56 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}, [connected])
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [configured])
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientConnect - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Handler is being applied: {uri=http://localhost:8081/validate?relativePath=/tickets&method=GET, method=GET}
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_prepared])
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:21:56 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-13 12:21:56 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-13 12:21:56 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-13 12:21:56 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-13 12:21:56 [] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_sent])
+2025-03-13 12:21:56 [] DEBUG i.n.handler.codec.compression.Zstd - zstd-jni not in the classpath; Zstd support will be unavailable.
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 401 
+Content-Type: <filtered>
+Transfer-Encoding: <filtered>
+Date: <filtered>
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_received])
+2025-03-13 12:21:56 [] DEBUG reactor.netty.channel.FluxReceive - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received last HTTP packet
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_completed])
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [disconnecting])
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Releasing channel
+2025-03-13 12:21:56 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:21:56 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Intercepting Request: [GET] /error
+2025-03-13 12:21:56 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Sending Validation Request to: http://localhost:8081/validate?relativePath=/error&method=GET
+2025-03-13 12:21:56 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel acquired, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientConnect - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Handler is being applied: {uri=http://localhost:8081/validate?relativePath=/error&method=GET, method=GET}
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_prepared])
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_sent])
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 401 
+Content-Type: <filtered>
+Transfer-Encoding: <filtered>
+Date: <filtered>
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_received])
+2025-03-13 12:21:56 [] DEBUG reactor.netty.channel.FluxReceive - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2025-03-13 12:21:56 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-2, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received last HTTP packet
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_completed])
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [disconnecting])
+2025-03-13 12:21:56 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Releasing channel
+2025-03-13 12:21:56 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:22:40 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Intercepting Request: [GET] /tickets
+2025-03-13 12:22:40 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Sending Validation Request to: http://localhost:8081/validate?relativePath=/tickets&method=GET
+2025-03-13 12:22:40 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel acquired, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:22:40 [] DEBUG r.n.http.client.HttpClientConnect - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Handler is being applied: {uri=http://localhost:8081/validate?relativePath=/tickets&method=GET, method=GET}
+2025-03-13 12:22:40 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_prepared])
+2025-03-13 12:22:40 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:22:40 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_sent])
+2025-03-13 12:22:40 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Transfer-Encoding: <filtered>
+Date: <filtered>
+2025-03-13 12:22:40 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_received])
+2025-03-13 12:22:40 [] DEBUG reactor.netty.channel.FluxReceive - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2025-03-13 12:22:40 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-3, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received last HTTP packet
+2025-03-13 12:22:41 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_completed])
+2025-03-13 12:22:41 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [disconnecting])
+2025-03-13 12:22:41 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Releasing channel
+2025-03-13 12:22:41 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:32 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Intercepting Request: [GET] /users
+2025-03-13 12:23:32 [] INFO  c.c.c.g.c.c.ValidationInterceptor - Sending Validation Request to: http://localhost:8081/validate?relativePath=/users&method=GET
+2025-03-13 12:23:32 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel acquired, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:32 [] DEBUG r.n.http.client.HttpClientConnect - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Handler is being applied: {uri=http://localhost:8081/validate?relativePath=/users&method=GET, method=GET}
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_prepared])
+2025-03-13 12:23:32 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [request_sent])
+2025-03-13 12:23:32 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Transfer-Encoding: <filtered>
+Date: <filtered>
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_received])
+2025-03-13 12:23:32 [] DEBUG reactor.netty.channel.FluxReceive - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] [terminated=false, cancelled=false, pending=0, error=null]: subscribing inbound receiver
+2025-03-13 12:23:32 [] DEBUG r.n.http.client.HttpClientOperations - [4f41e5f1-4, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Received last HTTP packet
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [response_completed])
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] onStateChange(GET{uri=/validate, connection=PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081]}}, [disconnecting])
+2025-03-13 12:23:32 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Releasing channel
+2025-03-13 12:23:32 [] DEBUG r.n.r.PooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 - R:localhost/127.0.0.1:8081] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:33 [] DEBUG i.m.c.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-13 12:23:33 [] DEBUG r.n.r.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [localhost/<unresolved>:8082]
+2025-03-13 12:23:33 [] DEBUG r.n.r.PooledConnectionProvider - [46bb7210] Created a new pooled channel, now: 0 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:33 [] DEBUG r.netty.transport.TransportConfig - [46bb7210] Initialized pipeline DefaultChannelPipeline{(reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+2025-03-13 12:23:33 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - resolveCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:23:33 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - cnameCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:23:33 [] DEBUG i.n.r.dns.DnsNameResolverBuilder - authoritativeDnsServerCache and TTLs are mutually exclusive. TTLs are ignored.
+2025-03-13 12:23:33 [] DEBUG r.netty.transport.TransportConnector - [46bb7210] Connecting to [localhost/127.0.0.1:8082].
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Registering pool release on close event for channel
+2025-03-13 12:23:33 [] DEBUG r.n.r.PooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Channel connected, now: 1 active connections, 0 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}, [connected])
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [configured])
+2025-03-13 12:23:33 [] DEBUG r.n.http.client.HttpClientConnect - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Handler is being applied: {uri=http://localhost:8082/users, method=GET}
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [request_prepared])
+2025-03-13 12:23:33 [] DEBUG r.n.http.client.HttpClientOperations - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] No sendHeaders() called before complete, sending zero-length header
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [request_sent])
+2025-03-13 12:23:33 [] DEBUG r.n.http.client.HttpClientOperations - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 
+Content-Type: <filtered>
+Content-Length: <filtered>
+Date: <filtered>
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [response_received])
+2025-03-13 12:23:33 [] DEBUG r.n.http.client.HttpClientOperations - [46bb7210-1, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Received last HTTP packet
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [response_completed])
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] onStateChange(GET{uri=/users, connection=PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082]}}, [disconnecting])
+2025-03-13 12:23:33 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Releasing channel
+2025-03-13 12:23:33 [] DEBUG r.n.r.PooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 - R:localhost/127.0.0.1:8082] Channel cleaned, now: 0 active connections, 1 inactive connections 0 pending acquire requests.
+2025-03-13 12:23:33 [] DEBUG reactor.netty.channel.FluxReceive - [68e2f878, L:/127.0.0.1:56357 ! R:localhost/127.0.0.1:8082] [terminated=true, cancelled=false, pending=1, error=null]: subscribing inbound receiver
+2025-03-13 12:23:51 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-13 12:23:52 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [46bb7210, L:/127.0.0.1:56357 ! R:localhost/127.0.0.1:8082] onStateChange(PooledConnection{channel=[id: 0x46bb7210, L:/127.0.0.1:56357 ! R:localhost/127.0.0.1:8082]}, [disconnecting])
+2025-03-13 12:23:52 [] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-13 12:23:52 [] DEBUG r.n.r.DefaultPooledConnectionProvider - [4f41e5f1, L:/127.0.0.1:56315 ! R:localhost/127.0.0.1:8081] onStateChange(PooledConnection{channel=[id: 0x4f41e5f1, L:/127.0.0.1:56315 ! R:localhost/127.0.0.1:8081]}, [disconnecting])
+2025-03-13 12:23:52 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 7 thread-local buffer(s) from thread: reactor-http-nio-2
+2025-03-13 12:23:52 [] DEBUG io.netty.buffer.PoolThreadCache - Freed 4 thread-local buffer(s) from thread: reactor-http-nio-4
